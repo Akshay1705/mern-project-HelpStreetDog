@@ -556,20 +556,89 @@ video {
   display: none;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
+.block{
+  display: block;
+}
+
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
+}
+
+.size-6{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.h-6{
+  height: 1.5rem;
 }
 
 .w-\[200px\]{
   width: 200px;
 }
 
+.w-\[60px\]{
+  width: 60px;
+}
+
+.w-screen{
+  width: 100vw;
+}
+
+.w-6{
+  width: 1.5rem;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .flex-row{
   flex-direction: row;
 }
 
-.gap-5{
-  gap: 1.25rem;
+.items-end{
+  align-items: flex-end;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
+.justify-items-end{
+  justify-items: end;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.gap-\[80px\]{
+  gap: 80px;
+}
+
+.justify-self-end{
+  justify-self: end;
 }
 
 .rounded-\[40px\]{
@@ -593,12 +662,16 @@ video {
   font-family: poppins, sans-serif;
 }
 
+.font-sans{
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-\[25px\]{
   font-size: 25px;
 }
 
-.font-bold{
-  font-weight: 700;
+.font-extrabold{
+  font-weight: 800;
 }
 
 .text-black{
@@ -606,12 +679,64 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
-.text-light-brown{
+.text-dark-brown{
   --tw-text-opacity: 1;
-  color: rgb(129 108 100 / var(--tw-text-opacity, 1));
+  color: rgb(68 15 80 / var(--tw-text-opacity, 1));
 }
 
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(111 110 189 / var(--tw-text-opacity, 1));
+}
+
+.hover\:w-\[200px\]:hover{
+  width: 200px;
+}
+
+.hover\:border-primaryb:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 26 110 / var(--tw-border-opacity, 1));
+}
+
+.hover\:text-primaryb:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 26 110 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 640px){
+  .sm\:block{
+    display: block;
+  }
+
+  .sm\:flex{
+    display: flex;
+  }
+
+  .sm\:hidden{
+    display: none;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:block{
+    display: block;
+  }
+
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
+  .md\:size-6{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .md\:text-primary{
+    --tw-text-opacity: 1;
+    color: rgb(111 110 189 / var(--tw-text-opacity, 1));
+  }
 }
