@@ -1,3 +1,7 @@
 # mern-project-HelpStreetDog
-
-THis is introduction
+contributors & roles:
+Akshay Parekh- developer
+jay patel - developer
+nikita jadhav- developer
+vikas- documentation
+rishiraj - tester
